@@ -1,0 +1,6 @@
+select jobtitle,
+education,
+dept,
+seniority
+from glassdoor_survey_roles
+where jobtitle = 'software engineer' and dept = 'management' and education != 'high school' and seniority between 2 and 3
